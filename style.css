@@ -1,0 +1,158 @@
+body {
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+.sidebar {
+    background-color: #000;
+    padding: 20px;
+    height: 100vh;
+}
+
+.sidebar .logo {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.sidebar .nav-link {
+    color: #fff;
+    margin: 10px 0;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.category-buttons .btn {
+    margin-right: 15px; /* Increased gap between buttons */
+    border-radius: 20px; /* Rounded corners */
+    padding: 8px 15px; /* Adjusted padding inside buttons */
+}
+
+.category-buttons .btn i {
+    margin-right: 5px; /* Increased gap between icon and text */
+}
+
+.card {
+    background-color: #2c2c2c;
+    color: #fff;
+    width: 170px;
+    height: 229px;
+}
+
+.card img {
+    width: 170px;
+    height: 229px;
+    object-fit: cover;
+}
+
+.right-sidebar {
+    background-color: #111;
+    padding: 20px;
+    height: 100vh;
+}
+
+.current-story {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.current-story-img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.queue {
+    margin-top: 20px;
+    text-align: center;
+    height: 380px;
+    width: 185px;
+    background-color: #2c2c2c;
+    border-radius: 10px;
+}
+
+.next-in-queue-img {
+    width: 100%;
+}
+
+.next-in-queue-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.now-playing-bar {
+    background-color: #000;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+}
+
+.now-playing-img {
+    width: 100%;
+}
+
+.now-playing-bar .progress {
+    margin-top: 10px;
+}
+
+/* Added styles for Made For You section */
+.card-img-container {
+    position: relative;
+    width: 250px;
+    height: 146px;
+}
+
+.card-img-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text p{
+    font-size: 10px;
+}
+.text { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.images img{
+    height: 50px;
+    width: 45px;
+}
+.images {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: -15px;
+    align-items: center;
+}
+
+.main-content h3 {
+    margin: 5px 0;
+  }
+
+  .raag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .raag img{
+    width: 20px;
+    height: 20px;
+  }
